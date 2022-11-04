@@ -1,0 +1,77 @@
+Important Topic: 
+.....................
+
+
+Github link/ Source Files: https://github.com/dev-rathankumar/carzone-gitproject
+
+Source Video/ Drive link: https://drive.google.com/drive/folders/1pTfT2NEcKwq3YVMM6GIEspWRPODm5GNx?usp=sharing
+
+...............................................................................
+
+Note: Please you guys must follow the videos.... 
+Don't do copy paste form github... Please must complete in 7 days....
+Do Hard Work... Break a leg.... 
+
+...............................................................................
+
+App:
+	1. python version - 3.8.10
+
+	2. posgresql server version - 12
+
+        3. pgadmin 4
+
+        4. VS Code
+........................................................
+
+
+For Psycopg2 installation:
+
+The current psycopg2==2.8.5 implementation supports:
+
+Python 3 versions from 3.4 to 3.8
+PostgreSQL server versions from 7.4 to 12
+PostgreSQL client library version from 9.1
+
+........................................................
+
+
+For migration:
+
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+
+.......................................................
+
+
+for creating requirements.txt:
+
+pip freeze > requirements.txt
+
+.......................................................
+
+for installing the requirements.txt:
+
+pip install -r requirements.txt
+
+
+.......................................................
+
+for creating posgresql database:
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': '8152',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
+}
+
+
+
+
+
+
